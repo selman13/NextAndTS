@@ -11,7 +11,7 @@ const SectionOne = () => {
   return (
     <>
       <div className="container my-3">
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-5">
           <h1 className="text-center text-3xl">Why HelloFresh?</h1>
 
           <div className="flex justify-center gap-1">
@@ -34,6 +34,10 @@ const SectionOne = () => {
               );
             })}
           </div>
+
+          <button className="bg-transparent hover:bg-green-900 text-green-900 font-semibold hover:text-white py-2 px-4 border border-green-900 hover:border-transparent rounded">
+        Get started
+      </button>
         </div>
       </div>
     </>
