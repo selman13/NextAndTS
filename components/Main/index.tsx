@@ -2,6 +2,7 @@ import React from 'react'
 import SectionOne from '../Common/SectionOne'
 import SectionTwo from '../Common/SectionTwo'
 import SectionThree from '../Common/SectionThree'
+import SectionFour from '../Common/SectionFour'
 
 const Main = () => {
   return (
@@ -9,6 +10,7 @@ const Main = () => {
         <SectionOne/>
         <SectionTwo/>
         <SectionThree/>
+        <SectionFour/>
     </div>
   )
 }
