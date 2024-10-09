@@ -1,13 +1,15 @@
-import React from 'react'
+import Banner from "../Common/Banner";
+import Navbar from "../Common/Navbar";
 
 const Header = () => {
   return (
-    <div className='container'>
-      <div className="logo">
-        <img src="/images/logo.svg" alt="" />
+    <>
+      <div className="flex flex-col">
+        <Navbar />
+        <Banner />
       </div>
-    </div>
-  )
-}
+    </>
+  );
+};
 
-export default Header
+export default Header;
