@@ -5,7 +5,7 @@ import banner from '@/app/banner.svg'
 const Banner = () => {
   return (
     <div>
-    <Image src={banner} width={1920} height={1080} alt='banner'/>
+    <Image src={banner} width={1920} height={200} alt='banner'/>
 
     </div>
   )

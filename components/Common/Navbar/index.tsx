@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../../app/logo.svg";
+import logo from "@/app/logo.svg";
 import { HeaderMenu } from "@/Data/Header";
 import Link from "next/link";
 
