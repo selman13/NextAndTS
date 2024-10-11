@@ -1,8 +1,13 @@
 import React from 'react'
+import FooterTop from '../Common/FooterTop'
+import FooterBottom from '../Common/FooterBottom'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <FooterTop/>
+      <FooterBottom/>
+    </div>
   )
 }
 
